@@ -2,7 +2,7 @@ import streamlit as st
 from src.rag_pipeline import RAGPipeline
 from src.recommender import NewsRecommender
 from src.summarizer import summarize_article
-
+from src.news_agent import NewsAgent
 import pandas as pd
 
 
@@ -52,9 +52,21 @@ option = st.sidebar.selectbox(
         "Semantic Search",
         "Summarize Article",
         "Recommend Articles",
-        "Recommend Based on My Interests"
+        "Recommend Based on History"
     ]
 )
+
+
+
+agent = NewsAgent()
+
+query = st.text_input("Ask the AI news agent")
+
+if st.button("Run Agent"):
+
+    result = agent.run(query)
+
+    st.write(result)
 
 if option == "Ask News (RAG)":
 
