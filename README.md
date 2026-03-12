@@ -4,7 +4,8 @@ An AI-powered system for intelligent news discovery, analysis, and personalizati
 
 This platform integrates semantic search, Retrieval-Augmented Generation (RAG), LLM-based summarization, and recommendation systems to help users explore and understand large collections of news articles.
 
-The system also includes an **agentic AI component** that dynamically selects tools such as search, question answering, summarization, and recommendation based on the user query.
+The system also includes an agentic AI component that dynamically selects tools such as search, question answering, summerization, and recommendation based on the user query.
+
 ---
 
 ## Key Features
@@ -18,4 +19,3 @@ The system also includes an **agentic AI component** that dynamically selects to
 
 ---
 
-The agent maintains conversation history and user search history to support contextual responses and personalized recommendations.
