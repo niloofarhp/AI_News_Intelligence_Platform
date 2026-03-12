@@ -1,0 +1,72 @@
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Python cache
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+env/
+.venv/
+
+# ===============================
+# Jupyter notebooks
+# ===============================
+.ipynb_checkpoints
+
+# ===============================
+# Dataset files
+# ===============================
+data/raw/
+data/processed/*.csv
+data/processed/*.json
+
+# ===============================
+# FAISS vector index
+# ===============================
+data/processed/*.bin
+data/processed/*.index
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# MacOS
+# ===============================
+.DS_Store
+
+# ===============================
+# VS Code
+# ===============================
+.vscode/
+
+# ===============================
+# Streamlit cache
+# ===============================
+.streamlit/
+
+# ===============================
+# Temporary files
+# ===============================
+*.tmp
+*.swp
+
+# Processed data
+data/raw/
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.npy
+data/processed/*.bin
+data/processed/*.index
+data/raw/*.json
